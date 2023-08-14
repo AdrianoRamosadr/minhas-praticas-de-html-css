@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #33a453;
+    --cor2: #1111;
+}
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body {
+    background-color: rgb(34, 148, 34);
+ }
+header {
+    background-image: linear-gradient(to bottom, rgb(3, 163, 3),black);
+    color: white;
+    text-align: center;
+    height: 90px;
+    padding: 45px;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 2px 1px black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 39px;
+}
+
+header p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 1px 1px black;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, green,black);
+    padding: 8px;
+    
+}
+
+nav a {
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: chartreuse;
+    color: chocolate;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+main {
+    min-width: 450px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.4;
+    background-color: azure;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main h2 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    padding-left: 4px;
+}
+
+main h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 19px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main ul {
+    font-weight: bold;
+}
+section h1 { font-size: 32px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+div.video{
+    background-color: #33a453;
+margin: 0px -20px 30px -20pxpx;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(2, 107, 2);
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
