@@ -8,11 +8,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Raleway&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Courgette&display=swap');
+
 :root{
     --font1:'Sriracha', cursive;
     --font2: 'Srisakdi', cursive;
     --font3: 'Dancing Script', cursive;
     --font4: 'Bricolage Grotesque', sans-serif;
+    --font5: 'Courgette', cursive;
 
 }
 
@@ -37,7 +40,7 @@ header h1{
     padding-top: 50px;
     color: white;
     font-variant: small-caps;
-    font-size: 2.5em;
+    font-size: 2.9em;
 }
 
 header p{
@@ -58,17 +61,21 @@ header a:hover{
 }
 
 section{
-    font-family: var(--font3);
+    font-family: var(--font5);
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 3em;
+    line-height: 2.6em;
     padding-left: 30px;
-    font-size: 2em;
+    font-size: 3.7vw;
     font-weight: bold;
 }
 
+section p{
+    padding-bottom: 10px;
+}
+
 section.imagen > p{
-   background-color: rgba(0, 0, 0, 0.137);
+   background-color: rgba(0, 0, 0, 0.404);
 display: inline-block;
 padding: 10px;
 }
@@ -77,13 +84,20 @@ section.imagen{
     width: 100vh;
     background-color: rgba(0, 0, 0, 0.178);
     color: white;
+    box-shadow: inset 1px 1px 6px black;
+    background-attachment: fixed;
 }
 
-section#flor{
-    background-image: url(imagens/.jpg);
-    background-position: right;
+section#flor2{
+    background-image: url(imagens/flores_azuis.jpg);
+    background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+}
+section#flor{
+    background-image: url(imagens/flor-azul-2.jpg);
+    background-position: cover;
+    background-position: center center;
 }
 footer{
     background-image: linear-gradient(to bottom, blue, darkblue);
