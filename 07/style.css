@@ -82,7 +82,7 @@ padding: 10px;
 }
 
 section.imagen{
-    width: 100vh;
+   height: 57vh;
     background-color: rgba(0, 0, 0, 0.178);
     color: white;
     box-shadow: inset 1px 1px 6px black;
